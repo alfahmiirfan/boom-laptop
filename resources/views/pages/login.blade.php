@@ -6,8 +6,8 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <div class="p-26 flex items-center justify-center">
-    <div class="bg-white shadow-md rounded-lg flex h-148 w-full max-w-4xl">
+    <div class="flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-md rounded-lg flex h-150 w-full max-w-4xl">
         <!-- Sign In Section -->
         <div class="w-1/2 bg-green-950 text-white p-10 rounded-l-lg flex flex-col justify-center">
          <div class="flex flex-col items-center">
@@ -40,11 +40,11 @@
         </div>
         <!-- Sign Up Section -->
         <div class="text-center w-1/2 bg-lime-50 text-black rounded-r-lg flex flex-col items-center justify-center">
+            <img alt="Boom Laptop logo" class="mb-4" height="100" src="\assets\boom-logo.png" width="300"/>
         <div class="flex flex-col items-start">
-         <img alt="Boom Laptop logo" class="mb-4" height="100" src="\assets\boom-logo.png" width="300"/>
-         <h1 class="text-2xl font-bold mb-2">
+         <h1 class="text-3xl font-semibold mb-2">
           Welcome in
-          <span class="text-green-800">
+          <span class="text-green-800 font-bold">
            Boom Laptop
           </span>
          </h1>
