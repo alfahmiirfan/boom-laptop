@@ -12,6 +12,10 @@ function login()
     {
         return view('pages/login');
     }
+function register()
+    {
+        return view('pages/register');
+    }
 function home()
     {
         return view('pages/home');
