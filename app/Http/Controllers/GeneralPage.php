@@ -24,4 +24,12 @@ function produk()
     {
         return view('pages/produk');
     }
+function about()
+    {
+        return view('pages/about');
+    }
+function contact()
+    {
+        return view('pages/contact');
+    }
 }

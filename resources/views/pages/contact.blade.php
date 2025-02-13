@@ -9,163 +9,53 @@
     <x-navbar></x-navbar>
     <div class="max-w-screen-xl mx-auto pr-8 pl-8">
         <div class="pb-36">
-            <h1 class="font-bold text-[42px]">Store</h1>
+            <h1 class="font-bold text-[42px]">Contact Us</h1>
         </div>
-        {{-- Featured Parts --}}
-        <div class="pb-12">
-            <h1 class="font-bold text-[42px]">Featured Parts</h1>
-        </div>
-
-        <div class="pb-12 grid grid-cols-3 gap-4">
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/casing-arma.webp" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">ARMAGGEDDON NIMITZ TR5000 - ATX GAMING PC CASING
-                    </h1>
-                    <h1 class="">Rp850.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/casing-pccool.jpg" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">Casing PC COOLER / PCCOOLER C3-B310 mATX - Free 4 FAN RGB - Black
-                    </h1>
-                    <h1 class="">Rp450.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/cooler-master.jpg" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">Cooler Master i30 Fan Processor Intel LGA 1156 1155 1151 1150 HYPER
-                    </h1>
-                    <h1 class="">Rp65.000</h1>
-                </div>
-            </div>
-        </div>
-
-        {{-- Our Parts Collection --}}
-        <div class="pb-12 pt-12">
-            <h1 class="font-bold text-[42px]">Our Parts Collection</h1>
-        </div>
-
-        <div class="pb-12 grid grid-cols-3 gap-4">
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/alseye-fan.jpg" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">ALSEYE FAN PROCESSOR MAX M240 LIQUID COOLER
-                    </h1>
-                    <h1 class="">Rp950.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/casing-arma.webp" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">ARMAGGEDDON NIMITZ TR5000 - ATX GAMING PC CASING
-                    </h1>
-                    <h1 class="">Rp850.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/moba-asrosck-b760m.png" class="h-92" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">ASROCK B760M PRO RS DDR5 Motherboard LGA 1700 M-Atx B 760 M
-                    </h1>
-                    <h1 class="">Rp2.200.000</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="pb-12 grid grid-cols-3 gap-4">
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/casing-pccool.jpg" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">Casing PC COOLER / PCCOOLER C3-B310 mATX - Free 4 FAN RGB - Black
-                    </h1>
-                    <h1 class="">Rp450.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/cooler-master.jpg" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">Cooler Master i30 Fan Processor Intel LGA 1156 1155 1151 1150 HYPER
-                    </h1>
-                    <h1 class="">Rp65.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/psu-da.jpg" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">Digital Alliance PSU 500W 80 Plus Gold Power Supply
-                    </h1>
-                    <h1 class="">Rp1.000.000</h1>
-                </div>
-            </div>
-        </div>
-
-        <div class="pb-12 grid grid-cols-3 gap-4">
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/fury-beast.jpg" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">FURY Beast RGB Black DDR4 8 GB
-                    </h1>
-                    <h1 class="">Rp550.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/2060.webp" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">GPU GIGABYTE RTX 2060
-                    </h1>
-                    <h1 class="">Rp2.700.000</h1>
-                </div>
-            </div>
-            <div>
-                <div class="pr-6 pb-6">
-                    <img src="/assets/1070.webp" class="" alt="" />
-                </div>
-                <div class="">
-                    <h1 class="pb-2 font-semibold">Graphics Card Gigabyte GeForce GTX 1070 Ti 8gb
-                    </h1>
-                    <h1 class="">Rp2.600.000</h1>
-                </div>
-            </div>
-        </div>
-
-        {{-- Help --}}
         <div>
-            <div class="pt-24 pb-24 grid grid-cols-3 gap-4">
-                <div class="...">
-                    <h1 class="pb-16 text-[24px] font-bold">Butuh bantuan dalam memilih komponen yang tepat?</h1>
-                    <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">PUSAT BANTUAN ></a>
-                </div>
+            <div class="grid grid-cols-3 gap-4">
                 <div class="col-span-2">
-                    <h1 class="text-[18px] text-gray-500">Dirancang khusus untuk membantu Anda secara menyeluruh dalam menentukan komponen komputer yang paling sesuai dengan kebutuhan spesifik, preferensi penggunaan, dan anggaran yang Anda miliki. Kami memahami bahwa memilih komponen yang tepat bisa menjadi tugas yang rumit, terutama dengan begitu banyaknya pilihan di pasaran. Oleh karena itu, kami menyediakan berbagai panduan, saran ahli, dan alat bantu yang akan memandu Anda melalui setiap langkah proses pemilihan. Dengan begitu, Anda dapat membuat keputusan yang lebih cerdas dan terinformasi, serta memastikan bahwa sistem komputer Anda tidak hanya memenuhi ekspektasi performa tetapi juga memberikan nilai terbaik untuk investasi Anda.
+                    <h1 class="pb-12 font-semibold">Contact Details</h1>
+                    <div class="flex pb-8">
+                        <div class="flex items-center pr-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0054e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin">
+                                <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                                <circle cx="12" cy="10" r="3" /></svg>
+                        </div>
+                        <div class="">
+                            <h1 class="font-semibold">Alamat kami</h1>
+                            <h1 class="text-gray-600">59FF+X8P, Jl. Imogiri Barat, Salakan, Bangunharjo, Kec. Sewon, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55153</h1>
+                        </div>
+                    </div>
+                    <div class="flex pb-8">
+                        <div class="flex items-center pr-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0054e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+                        </div>
+                        <div class="">
+                            <h1 class="font-semibold">Hubungi Kami</h1>
+                            <h1 class="text-gray-600">+6283840613712</h1>
+                        </div>
+                    </div>
+                    <div class="flex pb-8">
+                        <div class="flex items-center pr-6">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#0054e9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail">
+                                <rect width="20" height="16" x="2" y="4" rx="2" />
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" /></svg>
+                        </div>
+                        <div class="">
+                            <h1 class="font-semibold">Email Kami</h1>
+                            <h1 class="text-gray-600">boomlaptopkarangkajen@gmail.com</h1>
+                        </div>
+                    </div>
                 </div>
+
+                <div>
+                    <h1 class="pb-2 font-semibold">Lokasi Kami</h1>
+                    <img src="/assets/map.png" class="h-120" alt="" />
+                </div>
+
             </div>
         </div>
-
         {{-- Footer --}}
         <div class="pt-12">
             <div class="grid grid-cols-4 gap-4">
