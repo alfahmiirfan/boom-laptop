@@ -6,16 +6,20 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <x-navbar></x-navbar>
-    <div class="max-w-screen-xl mx-auto pr-8 pl-8">
-        <div class="pb-36">
-            <h1 class="font-bold text-[42px]">Store</h1>
+    <div class="rounded-3xl bg-[url(/assets/theme-header.png)]">
+        <div class="max-w-screen-xl mx-auto pr-8 pl-8">
+            <x-navbar></x-navbar>
+            {{-- <div class="max-w-screen-xl mx-auto pr-8 pl-8"> --}}
+            <div class="pb-36">
+                <h1 class="font-bold text-[42px]">Store</h1>
+            </div>
         </div>
-        {{-- Featured Parts --}}
+    </div>
+    {{-- Featured Parts --}}
+    <div class="max-w-screen-xl mx-auto pr-8 pl-8">
         <div class="pb-12">
             <h1 class="font-bold text-[42px]">Featured Parts</h1>
         </div>
-
         <div class="pb-12 grid grid-cols-3 gap-4">
             <div>
                 <div class="pr-6 pb-6">
@@ -266,6 +270,6 @@
                 </div>
             </div>
         </div>
-    </div>
+        {{-- </div> --}}
 </body>
 </html>

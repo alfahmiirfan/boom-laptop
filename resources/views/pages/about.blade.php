@@ -6,14 +6,18 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <x-navbar></x-navbar>
-    <div class="max-w-screen-xl mx-auto pr-8 pl-8">
-        <div class="pb-36">
-            <h1 class="font-bold text-[42px]">About Us</h1>
+    <div class="rounded-3xl bg-[url(/assets/theme-header.png)]">
+        <x-navbar></x-navbar>
+        <div class="max-w-screen-xl mx-auto pr-8 pl-8">
+            <div class="pb-36">
+                <h1 class="font-bold text-[42px]">About Us</h1>
+            </div>
         </div>
-        {{-- Kami Bekerja --}}
+    </div>
+    {{-- Kami Bekerja --}}
+    <div class="max-w-screen-xl mx-auto pr-8 pl-8">
         <div>
-            <div class="pb-32 grid grid-cols-3 gap-4">
+            <div class="pb-32 pt-12 grid grid-cols-3 gap-4">
                 <div class="...">
                     <h1 class="pb-16 text-[24px] font-bold">Kami Bekerja Keras Untuk Memberikan Anda Suku Cadang Dan Layanan Terbaik</h1>
                 </div>
@@ -23,13 +27,52 @@
             </div>
         </div>
 
-        <div class="text-center pb-32">
+        <div class="text-center pb-6">
             <h1 class="font-semibold text-[32px]">Our Company</h1>
             <h1 class="pr-52 pl-52 pb-12">Sejak didirikan, kami telah berkomitmen untuk memberikan layanan yang cepat, handal, dan transparan kepada setiap pelanggan. Tim kami terdiri dari para profesional yang berpengalaman dalam berbagai aspek teknologi, khususnya dalam menangani perangkat keras dan perangkat lunak.</h1>
             <img src="assets/theme-giga.png" class="rounded-lg" alt="" />
-
         </div>
 
+        <div class="grid grid-cols-2 gap-4 pb-32">
+            <div>
+                <h1 class="text-gray-600">Selain layanan perbaikan, kami juga menyediakan suku cadang berkualitas tinggi untuk memastikan setiap perbaikan dilakukan dengan komponen terbaik. Kami memahami betapa pentingnya komputer dalam mendukung aktivitas Anda, baik untuk kebutuhan pribadi maupun bisnis. Oleh karena itu, kami selalu siap memberikan layanan yang terbaik dengan pendekatan yang personal dan profesional..</h1>
+
+            </div>
+            <div>
+                <h1 class="text-gray-600">Di Boom Laptop, kami tidak hanya memperbaiki komputer Anda, tetapi juga memberikan solusi yang sesuai dengan kebutuhan Anda. Kepuasan Anda adalah prioritas utama kami, dan kami bangga bisa menjadi mitra terpercaya dalam menjaga perangkat komputer Anda tetap berfungsi optimal.</h1>
+
+            </div>
+        </div>
+
+        {{-- Our Team --}}
+
+        <div class="pb-32">
+            <div class="text-center pb-6 ">
+                <h1 class="font-semibold text-[32px]">Our Team</h1>
+                <h1 class="pr-52 pl-52 pb-12">Di Boom Laptop, kami bangga memiliki tim yang terdiri dari para profesional berpengalaman dan berdedikasi tinggi di bidang teknologi. Setiap anggota tim kami membawa keahlian dan pengetahuan yang mendalam dalam berbagai aspek servis komputer, mulai dari perbaikan perangkat keras hingga pengelolaan perangkat lunak yang kompleks.</h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <div class="">
+                    </div>
+                    <div>
+                        <img src="/assets/3.jpg" alt="Ahmad Fauzi" class="h-96 rounded-xl">
+                        <h2 class="text-xl font-bold mb-2 ">Ahmad Fauzi</h2>
+                        <p class="text-gray-600">Teknisi Komputer</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <img src="/assets/2.jpg" alt="Rizky Saputra" class="h-96 rounded-xl">
+                    <h2 class="text-xl font-bold mb-2">Rizky Saputra</h2>
+                    <p class="text-gray-600">Teknisi Komputer</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <img src="/assets/1.jpg" alt="Yusuf Maulana" class="h-96 rounded-xl">
+                    <h2 class="text-xl font-bold mb-2">Yusuf Maulana</h2>
+                    <p class="text-gray-600">Teknisi Komputer</p>
+                </div>
+            </div>
+        </div>
         {{-- Cek --}}
         <div>
             <div class=" pr-60 pl-60">

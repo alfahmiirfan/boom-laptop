@@ -6,12 +6,16 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <x-navbar></x-navbar>
-    <div class="max-w-screen-xl mx-auto pr-8 pl-8">
-        <div class="pb-36">
-            <h1 class="font-bold text-[42px]">Contact Us</h1>
+    <div class="rounded-3xl bg-[url(/assets/theme-header.png)]">
+        <x-navbar></x-navbar>
+        <div class="max-w-screen-xl mx-auto pr-8 pl-8">
+            <div class="pb-36">
+                <h1 class="font-bold text-[42px]">Contact Us</h1>
+            </div>
         </div>
-        <div>
+    </div>
+    <div class="max-w-screen-xl mx-auto pr-8 pl-8">
+        <div class="pt-6">
             <div class="grid grid-cols-3 gap-4">
                 <div class="col-span-2">
                     <h1 class="pb-12 font-semibold">Contact Details</h1>
